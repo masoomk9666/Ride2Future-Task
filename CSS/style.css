@@ -1,0 +1,68 @@
+body {
+    background-image: url("../images/bg1.png");
+    /* background-repeat: no-repeat ;
+    background-position: fixed; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .container{
+    margin-top: 2vmax;
+    width: 60%;
+    height: 38vmax;
+    background-color: wheat;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+  }
+  .div-1{
+    background-color: white;
+    padding: 3vmax;
+    border-radius: 20px;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid blue;
+  }
+  .input-1>input{
+    padding: 10px 10px 10px 10px;
+    width: 20vmax;
+    border-radius: 50px;
+    border: 1px solid blue;
+    margin-right: 10px;
+  }
+  .input-1>button{
+    padding: 10px 10px 10px 10px;
+border-radius: 50px;
+width: 8vmax;
+border: 1px solid blue;
+cursor: pointer;
+color: black;
+  }
+  .input-1>button:hover{
+    background-color: rgb(5, 5, 80);
+    color: white;
+  }
+  .div-2{
+    background-color: white;
+    padding: 1vmax;
+    border-radius: 20px;
+    width: 80%;
+    align-items: center;
+    border: 1px solid blue;
+  }
+/* .data{
+   
+} */
+.buttons{
+    display: flex;
+    justify-content: end;
+    align-items: start;
+}
+.buttons > button{
+    margin: 0px 5px 0px 5px;
+}
