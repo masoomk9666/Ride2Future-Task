@@ -65,14 +65,29 @@
                     <?php
                     }
                     ?>
+
+                    <?php  if($row['status']==false){ ?>  
                     <td style="width:10%"><a class="btn btn-success" href="update.php ? ID=<?php echo $row['id'] ?>">Complete</a></td>
+                    <?php 
+                    }else{ 
+                    ?>
+                    <td style="width:10%">Complete</td>
+                    <?php
+                    }
+                    ?>
+                    
                     <td style="width:10%"><a class="btn btn-danger" href="delete.php ? ID=<?php echo $row['id'] ?>">Delete</a></td>
                 </tr>
                 <?php
                  } }
                 ?>
+                
             </tbody>
         </table>
+        <div class="row justify-content-center m-auto shadow bg-white mt-3 py-3">
+        <a class="btn btn-danger col-2" href="deleteall.php">Delete All</a>
+        </div>
+        
         </div>
         </div>
     
